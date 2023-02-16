@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+$background-primary: #eeeeee;
+$background-secondary: #D9D9D9;
+$white: #ffffff;
+$red-primary: #f05350;
+$red-secondary: #BA4442;
+$black: black;
+
+*{
+    font-family:'Patrick Hand';
+}
+
+.wrapper{
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.page-title-wrapper{
+    text-align: center;
+}
+
+.nav{
+    text-align: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 60px;
+    font-family:'Patrick Hand';
+}
+
+.link-nav{
+    display: block;
+    text-align: center;
+    background-color: $background-primary;
+    border-color: $black;
+    border-style: solid;
+    border-radius: 40px;
+    border-width: 2px;
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: $black;
+}
+
+.link-nav:hover{
+    background-color: $background-secondary;
+    cursor: pointer;
+}
+
+.dashboard{
+    float: left;
+}
+
+.new-user{
+    float: right;
+}
+
+.data{
+    width: 500px;
+    height: 200px;
+}
+
+.data-table{
+    width: 100%;
+}
+
+.user-name{
+    background: $red-primary;
+    border: 1px solid $red-primary;
+    border-radius: 60px;
+    color: $white;
+    font-size: 20px;
+    width: 150px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.user-name:hover{
+    background: $red-secondary;
+    cursor: pointer;
+    border-color: $red-secondary;
+}

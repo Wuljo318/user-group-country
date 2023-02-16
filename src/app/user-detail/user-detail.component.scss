@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+$background-primary: #eeeeee;
+$background-secondary: #D9D9D9;
+$white: #ffffff;
+$red-primary: #f05350;
+$red-secondary: #BA4442;
+$black: black;
+*{
+    font-family:'Patrick Hand';
+}
+
+.wrapper{
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.details{
+    background: $background-secondary;
+}
+
+.details-id{
+    font-size: 20px;
+    color: $black;
+    margin: 20px;
+}

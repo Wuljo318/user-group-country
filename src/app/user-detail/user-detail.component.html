@@ -1,0 +1,12 @@
+<div *ngIf="user" class="wrapper">
+    <h2 mat-dialog-title>{{user.name}} Details</h2>
+    <div class="details" mat-dialog-content>
+        <div class="details-id">
+            ID: {{user.userId}}
+        </div>
+        <mat-form-field class="details-name">
+            <mat-label for="name">Name: </mat-label>
+            <input id="name" matInput [(ngModel)]="user.name" placeholder="User name">
+        </mat-form-field>
+    </div>
+</div>

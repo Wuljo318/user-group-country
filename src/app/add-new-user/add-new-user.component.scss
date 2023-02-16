@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+$background-primary: #eeeeee;
+$font-primary: #f05350;
+$background-secondary: #D9D9D9;
+$black: black;
+
+*{
+    font-family:'Patrick Hand';
+}
+
+.nav{
+    text-align: center;
+    align-items: center;
+}
+
+.link-nav{
+    display: block;
+    text-align: center;
+    background-color: $background-primary;
+    border-color: $black;
+    border-style: solid;
+    border-radius: 40px;
+    border-width: 2px;
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: $black;
+    float: left;
+}
+
+.link-nav:hover{
+    background-color: $background-secondary;
+    cursor: pointer;
+}
+
+h2{
+    font-size: 60px;
+    font-family: 'Patrick Hand';
+}
+
+.wrapper{
+    margin: 10px;
+}
+
